@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Questionnement de CLARIFICATION de la DEMANDE</h1>
+  <form id="coachingForm">
+    <div class="question-container">
+      <h2>1. Situation actuelle</h2>
+      <label>Qui est concerné par le coaching d’équipe ?</label>
+      <textarea name="teamMembers" rows="8" cols="80" required></textarea>
+    </div>
+
+    <!-- Ajoutez d'autres questions pour la section "Situation actuelle" ici... -->
+
+    <div class="question-container">
+      <h2>2. Situation désirée</h2>
+      <label>Quelle est la temporalité de la mise en œuvre de l'objectif ?</label>
+      <textarea name="desiredTimeline" rows="8" cols="80" required></textarea>
+    </div>
+
+    <!-- Ajoutez d'autres questions pour les sections suivantes de la même manière... -->
+
+    <button type="button" id="prevButton" onclick="showPrevQuestion()">Précédent</button>
+    <button type="button" id="nextButton" onclick="showNextQuestion()">Suivant</button>
+    <button type="submit" id="submitButton">Envoyer</button>
+  </form>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.6.0/mammoth.browser.min.js"></script>
+
+</body>
+</html>
+
