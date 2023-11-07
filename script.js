@@ -1,39 +1,51 @@
-// ... (le code précédent reste inchangé)
+document.addEventListener("DOMContentLoaded", function() {
+    const questionForm = document.getElementById("questionForm");
+    const questionBlocks = document.querySelectorAll(".question-block");
+    const resultText = document.getElementById("resultText");
+    const resultsSection = document.getElementById("results");
+    let currentBlockIndex = 0;
 
-document.getElementById("coachingForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-    
-    // Récupérer les réponses du formulaire
-    const responses = [];
-    const questionContainers = document.querySelectorAll(".question-container");
-    questionContainers.forEach((container, index) => {
-      const question = container.querySelector("h2").textContent;
-      const answer = container.querySelector('textarea').value;
-      responses.push({ question, answer });
+    function showCurrentBlock() {
+        questionBlocks.forEach((block, index) => {
+            if (index === currentBlockIndex) {
+                block.style.display = "block";
+            } else {
+                block.style.display = "none";
+            }
+        });
+    }
+
+    function updateResults() {
+        let result = "";
+        questionBlocks.forEach((block, index) => {
+            const answers = block.querySelectorAll("textarea");
+            answers.forEach((answer, i) => {
+                result += `Question ${index + 1}.${i + 1}: ${answer.value}\n`;
+            });
+        });
+        resultText.textContent = result;
+    }
+
+    showCurrentBlock();
+
+    document.getElementById("nextButton").addEventListener("click", () => {
+        if (currentBlockIndex < questionBlocks.length - 1) {
+            currentBlockIndex++;
+            showCurrentBlock();
+        }
     });
-  
-    // Convertir les réponses en un document Word
-    const wordContent = "Questionnement de CLARIFICATION de la DEMANDE\n\n";
-    responses.forEach((response, index) => {
-      wordContent += `${response.question}\n${response.answer}\n\n`;
+
+    document.getElementById("prevButton").addEventListener("click", () => {
+        if (currentBlockIndex > 0) {
+            currentBlockIndex--;
+            showCurrentBlock();
+        }
     });
-  
-    // Utiliser mammoth.js pour convertir le document Word
-    mammoth.convert({html: wordContent})
-      .then(function(result) {
-        // Créer un objet Blob avec le contenu Word converti
-        const blob = new Blob([result.value], { type: "application/msword" });
-  
-        // Créer un lien de téléchargement pour le fichier Word
-        const a = document.createElement("a");
-        a.href = URL.createObjectURL(blob);
-        a.download = "Questionnaire_Clarification_Demande.doc";
-        a.click();
-      })
-      .catch(function(err) {
-        console.error(err);
-      });
-  });
-  
-  // ... (le code précédent pour la navigation reste inchangé)
-  
+
+    document.getElementById("submitButton").addEventListener("click", () => {
+        if (currentBlockIndex === questionBlocks.length - 1) {
+            updateResults();
+            resultsSection.style.display = "block";
+        }
+    });
+});
