@@ -11,10 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
             if (index === currentBlockIndex) {
                 block.style.display = "block";
             } else {
-                block.style display = "none";
+                block.style.display = "none";
             }
         });
-
         if (currentBlockIndex === questionBlocks.length - 1) {
             document.getElementById("nextButton").setAttribute("disabled", "true");
         } else {
@@ -34,17 +33,20 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadButton.removeAttribute("disabled");
     }
 
-    downloadButton.addEventListener("click", () => {
+    function generateAndDownloadFile() {
         const textToDownload = resultText.textContent;
         const blob = new Blob([textToDownload], { type: "text/plain" });
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
         a.download = "reponses.txt";
+        a.style.display = "none";
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-    });
+    }
+
+    downloadButton.addEventListener("click", generateAndDownloadFile);
 
     showCurrentBlock();
 
