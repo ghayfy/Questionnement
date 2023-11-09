@@ -1,21 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const questionForm = document.getElementById("questionForm");
-    const questionBlocks = document.querySelectorAll(".question-block");
-    const resultText = document.getElementById("resultText");
-    const resultsSection = document.getElementById("results");
-    const downloadButton = document.getElementById("downloadButton");
-    let currentBlockIndex = 0;
-
-    function showCurrentBlock() {
-        questionBlocks.forEach((block, index) => {
-            if (index === currentBlockIndex) {
-                block.style.display = "block";
-            } else {
-           <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>CLARIFICATION de la DEMANDE</title>
+    <title>Questionnement de CLARIFICATION de la DEMANDE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
@@ -33,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="question-block" id="block2">
                 <h2 class="text-primary">2. Situation désirée</h2>
                 <div class="form-group">
-                    <label for "numOfPeople">Quelle est la temporalité de la mise en œuvre de l’objectif ?</label>
+                    <label for="numOfPeople">Quelle est la temporalité de la mise en œuvre de l’objectif ?</label>
                     <textarea class="form-control" id="numOfPeople" name="numOfPeople" rows="10" required></textarea>
                 </div>
             </div>
