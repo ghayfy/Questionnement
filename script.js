@@ -1,10 +1,9 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     const questionForm = document.getElementById("questionForm");
     const questionBlocks = document.querySelectorAll(".question-block");
     const resultText = document.getElementById("resultText");
     const resultsSection = document.getElementById("results");
-    const downloadButton = document.getElementById("downloadButton"); // Bouton pour le téléchargement
+    const downloadButton = document.getElementById("downloadButton");
     let currentBlockIndex = 0;
 
     function showCurrentBlock() {
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 block.style.display = "none";
             }
         });
-        // Désactiver le bouton "Suivant" sur la dernière question
         if (currentBlockIndex === questionBlocks.length - 1) {
             document.getElementById("nextButton").setAttribute("disabled", "true");
         } else {
@@ -32,22 +30,19 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }
         resultText.textContent = result;
-
-        // Activer le bouton de téléchargement une fois que les réponses sont générées
         downloadButton.removeAttribute("disabled");
     }
 
-    // Générer le fichier texte et activer le bouton de téléchargement
     downloadButton.addEventListener("click", () => {
         const textToDownload = resultText.textContent;
         const blob = new Blob([textToDownload], { type: "text/plain" });
-        const url = window.URL.createObjectURL(blob);
+        const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
         a.download = "reponses.txt";
         document.body.appendChild(a);
         a.click();
-        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
     });
 
     showCurrentBlock();
