@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
             if (index === currentBlockIndex) {
                 block.style.display = "block";
             } else {
-                block.style.display = "none";
+                block.style display = "none";
             }
         });
+
         if (currentBlockIndex === questionBlocks.length - 1) {
             document.getElementById("nextButton").setAttribute("disabled", "true");
         } else {
