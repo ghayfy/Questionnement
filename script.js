@@ -31,22 +31,21 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         resultText.textContent = result;
         downloadButton.removeAttribute("disabled");
-    }
 
-    function generateAndDownloadFile() {
-        const textToDownload = resultText.textContent;
-        const blob = new Blob([textToDownload], { type: "text/plain" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "reponses.txt";
-        a.style.display = "none";
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
+        // Générer le fichier texte et activer le bouton de téléchargement
+        downloadButton.addEventListener("click", () => {
+            const textToDownload = resultText.textContent;
+            const blob = new Blob([textToDownload], { type: "text/plain" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "reponses.txt";
+            a.style.display = "none";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        });
     }
-
-    downloadButton.addEventListener("click", generateAndDownloadFile);
 
     showCurrentBlock();
 
