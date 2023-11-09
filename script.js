@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const questionBlocks = document.querySelectorAll(".question-block");
     const resultText = document.getElementById("resultText");
     const resultsSection = document.getElementById("results");
-    const downloadButton = document.getElementById("downloadButton");
     let currentBlockIndex = 0;
 
     function showCurrentBlock() {
@@ -14,11 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 block.style.display = "none";
             }
         });
-        if (currentBlockIndex === questionBlocks.length - 1) {
-            document.getElementById("nextButton").setAttribute("disabled", "true");
-        } else {
-            document.getElementById("nextButton").removeAttribute("disabled");
-        }
     }
 
     function updateResults() {
@@ -28,26 +22,15 @@ document.addEventListener("DOMContentLoaded", function() {
             answers.forEach((answer, i) => {
                 result += `Question ${index + 1}.${i + 1}: ${answer.value}\n`;
             });
-        }
+        });
         resultText.textContent = result;
-        downloadButton.removeAttribute("disabled");
-    }
 
-    // Fonction pour générer et télécharger le fichier texte
-    function downloadTextFile() {
-        const textToDownload = resultText.textContent;
-        const blob = new Blob([textToDownload], { type: "text/plain" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "reponses.txt";
-        a.style.display = "none";
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
+        // Ajouter la gestion du téléchargement
+        const downloadLink = document.getElementById("downloadLink");
+        const blob = new Blob([result], { type: "text/plain" });
+        downloadLink.href = URL.createObjectURL(blob);
+        downloadLink.download = "reponses.txt";
     }
-
-    downloadButton.addEventListener("click", downloadTextFile);
 
     showCurrentBlock();
 
@@ -72,4 +55,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-

@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>CLARIFICATION de la DEMANDE</title>
+    <title>Questionnement de CLARIFICATION de la DEMANDE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container mt-5 mb-5">
-        <h1 class="text-center font-weight-bold text-primary mb-4">CLARIFICATION de la DEMANDE</h1>
+        <h1 class="text-center font-weight-bold text-primary mb-4">Questionnement de CLARIFICATION de la DEMANDE</h1>
         <form id="questionForm">
             <div class="question-block" id="block1">
                 <h2 class="text-primary">1. Situation actuelle</h2>
@@ -30,14 +30,12 @@
                 <button id="nextButton" class="btn btn-primary" type="button">Suivant</button>
             </div>
             <button id="submitButton" class="btn btn-success btn-block mt-3" type="button">Générer le fichier texte</button>
-
-            <!-- Bouton pour télécharger les réponses -->
-            <button id="downloadButton" class="btn btn-primary btn-block mt-3" type="button" disabled>Télécharger les réponses</button>
+            <a id="downloadLink" class="btn btn-success btn-block mt-3" href="#" download="reponses.txt">Télécharger le fichier texte</a>
         </form>
 
         <div id="results" class="hidden mt-4">
-            <h2 class="text-primary mb-3">Réponses :</h2>
-            <pre id="resultText" class="bg-light p-3 border rounded"></pre>
+            <h2 class="text-primary">Réponses :</h2>
+            <pre id="resultText"></pre>
         </div>
     </div>
     <script src="script.js"></script>
