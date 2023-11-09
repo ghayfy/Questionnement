@@ -1,8 +1,21 @@
-<!DOCTYPE html>
+document.addEventListener("DOMContentLoaded", function() {
+    const questionForm = document.getElementById("questionForm");
+    const questionBlocks = document.querySelectorAll(".question-block");
+    const resultText = document.getElementById("resultText");
+    const resultsSection = document.getElementById("results");
+    const downloadButton = document.getElementById("downloadButton");
+    let currentBlockIndex = 0;
+
+    function showCurrentBlock() {
+        questionBlocks.forEach((block, index) => {
+            if (index === currentBlockIndex) {
+                block.style.display = "block";
+            } else {
+           <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Questionnement de CLARIFICATION de la DEMANDE</title>
+    <title>CLARIFICATION de la DEMANDE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
