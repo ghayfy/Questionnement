@@ -1,112 +1,121 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GUIDE DE COACHING Individuel</title>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
-  margin: 0;
-  color: #085e79; /* Couleur du texte */
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIDE DE COACHING Individuel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+            color: #085e79;
+        }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-}
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
 
-h1 {
-  color: #126781; /* Couleur du texte */
-  text-align: center;
-  font-size: 32px;
-  text-decoration: underline;
-  margin-bottom: 20px;
-}
+        h1 {
+            color: #126781;
+            text-align: center;
+            font-size: 32px;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
 
-h2 {
-  color: #126781; /* Couleur du texte */
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+        h2 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #126781;
+            cursor: pointer;
+        }
 
-.checklist {
-  list-style-type: none;
-  padding: 0;
-}
+        .checklist {
+            list-style-type: none;
+            padding: 0;
+        }
 
-.checklist li {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 15px 0;
-  transition: all 0.5s ease;
-}
+        .checklist li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            transition: all 0.5s ease;
+        }
 
-.checklist li.checked {
-  background-color: #d4edda; /* Couleur de fond quand cochée (vert pâle) */
-  border-color: #c3e6cb; /* Couleur de la bordure quand cochée (vert) */
-}
+        .checklist li.checked {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
 
-.checklist li:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
+        .checklist li:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
 
-.checklist input[type="checkbox"] {
-  margin-right: 10px;
-}
+        .checklist input[type="checkbox"] {
+            margin-right: 10px;
+        }
 
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #085e79;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #085e79; /* Couleur de fond du bouton (bleu similaire) */
-    color: #fff; /* Couleur du texte du bouton */
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
+        .button:hover {
+            background-color: #085e79;
+        }
 
-.button:hover {
-    background-color: #085e79; /* Couleur de fond du bouton au survol */
-}
+        .pdf-link {
+            color: #085e79;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
- /* Style pour le lien */
- .pdf-link {
-    color: #085e79; /* Couleur du lien */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-    font-weight: bold; /* Met en gras le texte du lien */
-  }
+        .click-indicator {
+            font-size: 80%;
+            margin-left: 5px;
+            color: #085e79;
+        }
 
-  /* Style pour l'indication */
-  .click-indicator {
-    font-size: 80%; /* Réduit la taille de la police */
-    margin-left: 5px; /* Ajoute un espacement à gauche */
-    color: #085e79; /* Couleur de l'indication */
-  }
+        .pdf-link:hover {
+            text-decoration: underline;
+        }
 
-  /* Style pour le lien au survol de la souris */
-  .pdf-link:hover {
-    text-decoration: underline; /* Soulignement au survol */
-  }
-
-  
-    /* Style pour le Menu */
-  .navbar {
-            background-color: #085e79; /* Couleur de fond */
+        .navbar {
+            background-color: #085e79;
             overflow: hidden;
         }
 
         .navbar a {
             float: left;
             display: block;
-            color: #f2f2f2; /* Couleur du texte */
+            color: #f2f2f2;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            border-right: 1px solid #ffffff;
+        }
+
+        .navbar a:last-child,
+        .navbar .dropdown:last-child .dropbtn {
+            border-right: none;
         }
 
         .navbar a:hover {
@@ -114,255 +123,227 @@ h2 {
             color: black;
         }
 
-/* ... vos autres styles CSS ... */
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            border-right: 1px solid #ffffff;
+        }
 
-/* Style pour le menu déroulant */
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
 
-.dropdown .dropbtn {
-    font-size: 16px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #ddd;
-    color: black;
-}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
 
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+        .burger {
+            display: none;
+            position: relative;
+            font-size: 24px;
+            background: none;
+            border: none;
+            color: #fff;
+            padding: 14px 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
 
+        .burger:focus {
+            outline: none;
+        }
 
+        .burger:before,
+        .burger:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 30px;
+            height: 2px;
+            background-color: #fff;
+            transition: all 0.3s ease;
+        }
 
+        .burger:before {
+            transform: translate(-50%, -10px);
+        }
 
-/* ... vos autres styles CSS ... */
+        .burger:after {
+            transform: translate(-50%, 8px);
+        }
 
-/* Améliorations du style pour le bouton Burger */
-.burger {
-    display: none;
-    position: relative;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: #fff;
-    padding: 14px 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+        .navbar-links {
+            transition: all 0.3s ease;
+        }
 
-.burger:focus {
-    outline: none;
-}
+        @media screen and (max-width: 600px) {
+            .navbar-links {
+                display: none;
+                width: 100%;
+                background-color: #085e79;
+                padding-top: 20px;
+            }
 
-/* Animation de l'icône burger */
-.burger:before, .burger:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 30px;
-    height: 2px;
-    background-color: #fff;
-    transition: all 0.3s ease;
-}
+            .navbar-links.nav-active {
+                display: block;
+            }
 
-.burger:before {
-    transform: translate(-50%, -10px);
-}
+            .burger {
+                display: block;
+            }
 
-.burger:after {
-    transform: translate(-50%, 8px);
-}
+            .navbar a,
+            .dropdown .dropbtn {
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
 
-/* Style pour les liens de navigation */
-.navbar-links {
-    transition: all 0.3s ease;
-}
+            .dropdown-content {
+                position: relative;
+            }
+        }
 
-/* Cacher les liens de navigation sur les petits écrans */
-@media screen and (max-width: 600px) {
-    .navbar-links {
-        display: none;
-        width: 100%;
-        background-color: #085e79;
-        padding-top: 20px;
-    }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
 
-    .navbar-links.nav-active {
-        display: block;
-    }
+            h2 {
+                font-size: 18px;
+            }
 
-    .burger {
-        display: block;
-    }
+            .checklist li {
+                padding: 10px;
+                margin: 10px 0;
+            }
 
-    .navbar a, .dropdown .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
+            .checklist li ul {
+                margin-left: 20px;
+            }
 
-    .dropdown-content {
-        position: relative;
-    }
-}
-
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  .checklist li {
-    padding: 10px;
-    margin: 10px 0;
-  }
-
-  .checklist li ul {
-    margin-left: 20px;
-  }
-
-  .checklist li ul li {
-    padding: 10px;
-    margin: 10px 0;
-  }
-}
-</style>
-
-
-
+            .checklist li ul li {
+                padding: 10px;
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
-<body>
-<!-- Menu Navbar avec bouton Burger -->
-<div class="navbar">
-  <button class="burger">
-      ☰
-  </button>
-    <div class="navbar-links">
-        <a href="index.html">Processus</a>
-        <a href="seance0.html">Séance 0</a>
-        <a href="seance1.html">Séance 1</a>
-        <a href="seance2.html">Séance 2</a>
-        <a href="seance3.html">Séance 3</a>
-        <a href="seance4.html">Séance 4</a>
-        <a href="seance5.html">Séance 5</a>
-        <a href="seance6.html">Séance 6</a>
-        <a href="seance7.html">Séance 7</a>
-        <a href="seance8.html">Séance 8</a>
-        <a href="seance9.html">Séance 9</a>
-    <div class="dropdown">
-        <button class="dropbtn">Protocole</button>
-          <div class="dropdown-content">
-              <a href="#protocole1">Protocole 1</a>
-              <a href="#protocole2">Protocole 2</a>
-          </div>
-    </div>
-  </div>
-</div>
 
-      
 <body>
     <!-- Menu Navbar avec bouton Burger -->
     <div class="navbar">
-      <!-- ... votre menu navbar ... -->
+        <button class="burger">
+            ☰
+        </button>
+        <div class="navbar-links">
+            <a href="index.html">Processus</a>
+            </div>
+        </div>
     </div>
-  
+    
+
     <div class="container">
-        <h1>Déroulé des séances</h1>
-        
-        <h2>Séance 1 – RPBD et cadre</h2>
-        <p>Exploration de la problématique.</p>
-        
-        <h2>Séance 2 – Entretien de motivation et objectif</h2>
-        <p>Exploration de la problématique, incluant entretien d’objectif ou de résolution de problème.</p>
-        <p>À partir de la deuxième séance, travail sur 1 pilier des « 7 piliers de vie » entre chaque séance. Utilisation d'outils de diagnostic pour faire un état des lieux.</p>
-        
-        <h2>Séance 3 – SCORE</h2>
-        <p>Outil de diagnostic pour lister les ressources nécessaires à l'atteinte des objectifs et mise en lumière des besoins.</p>
-        
-        <h2>Séance 4 – SMARTER l'objectif</h2>
-        <p>Définition des critères d’atteinte et notion d’écologie. Mise en place du contrat.</p>
-        
-        <h2>Séance 5 – Niveaux logiques</h2>
-        <p>Identification des blocages, projection dans la réussite de l'objectif et programmation des actions nécessaires.</p>
-        
-        <h2>Bilan de mi-parcours</h2>
-  
-        <h2>Séance 6 – Accompagnement émotionnel</h2>
-        <p>Comprendre les émotions et apprendre à écouter leurs messages.</p>
-        
-        <h2>Séance 7 – Croyances</h2>
-        <p>Travail sur les croyances limitantes et renforcement des croyances ressources.</p>
-        
-        <h2>Séance 8 – Drivers et état du moi</h2>
-        <p>Mise en place de messages permissifs et sensibilisation à l'état du moi.</p>
-        
-        <h2>Séance 9 – Estime de soi</h2>
-        <p>Développement de la confiance en soi, de l’image de soi et de l’amour de soi.</p>
-  
-        <h2>Bilan de coaching</h2>
+        <h1 style="font-size: 36px; color: #126781; text-align: center; text-decoration: none; font-weight: bold; margin-bottom: 20px;">Guide de Coaching Professionnel</h1>
+
+
+        <h2 onclick="window.location.href='diagnostic.html'">1. Diagnostic</h2>
+        <h2 onclick="window.location.href='definition_programme_manager.html'">2. Définition du programme avec le manager</h2>
+        <h2 onclick="window.location.href='preparation_seminaire.html'">3. Préparation du séminaire</h2>
+        <h2 onclick="window.location.href='matinee_seminaire_auto_diagnostic.html'">4. Matinée du séminaire : auto-diagnostic méthode Delbelcq</h2>
+        <h2 onclick="window.location.href='apres_midi_seminaire_mises_situation.html'">5. Après-midi du séminaire : mises en situation, protocoles et jeux</h2>        
     </div>
-  
+
+    <button id="scrollTopBtn"><b>Remonter</b></button>
+
+    <style>
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            padding: 10px 20px;
+            background-color: #085e79;
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: none;
+            /* Cachez le bouton par défaut */
+        }
+    </style>
+
     <script>
-      // Votre script pour le menu burger
+        function toggleCheckbox(checkbox) {
+            checkbox.parentNode.classList.toggle('checked', checkbox.checked);
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const burger = document.querySelector('.burger');
+            const navLinks = document.querySelector('.navbar-links');
+
+            burger.addEventListener('click', function () {
+                navLinks.classList.toggle('nav-active');
+            });
+        });
+
+
+        // Fonction pour remonter en haut de la page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Effet de défilement doux
+            });
+        }
+
+        // Affiche le bouton quand l'utilisateur descend de 100px
+        window.onscroll = function () {
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        // Ajoute l'événement de clic au bouton
+        document.getElementById('scrollTopBtn').addEventListener('click', scrollToTop);
     </script>
-  </body>
-  </html>
-  
-  
+</body>
 
-  <script>
-    function toggleCheckbox(checkbox) {
-        checkbox.parentNode.classList.toggle('checked', checkbox.checked);
-    }
+</html>
 
-    document.addEventListener('DOMContentLoaded', function () {
-      const burger = document.querySelector('.burger');
-      const navLinks = document.querySelector('.navbar-links');
-
-      burger.addEventListener('click', function () {
-          navLinks.classList.toggle('nav-active');
-      });
-  });
-
-
-</script>
-  
-  </body>
-  </html>
