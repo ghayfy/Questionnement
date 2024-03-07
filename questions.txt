@@ -1,4 +1,5 @@
 
+
 Présentation + Questions + Proposition stratégie + Tarif Horaire Front et back office 
 
 Je m'appel Fabrice GUERET
@@ -28,7 +29,7 @@ les coordonner, assurer le suivi
 Par la suite devenir ambassadeur du produit et former les caisses à l'utilisation de ce produit.
 
 
-Juste avant ça, j'étais Chef de Projet MOA en clientèle chez KEOLIS LYON,. 
+Juste avant ma mission actuel, j'étais Chef de Projet MOA en clientèle chez KEOLIS LYON,. 
 J'ai dirigé la mise en œuvre du cadrage du projet d'allotissement d'un portefeuille d'applications 
 pour ouvrir la partie bus des transports urbain lyonnais à la concurrence en 2025.
 Ce rôle demandait une expertise :
@@ -39,9 +40,11 @@ chiffrer la charge, répartir les rôles,
 planifier les actions, 
 piloter et coordonner les opérations de bout en bout.
 
+encore avant 
 J'ai réalisé deux missions en tant que Chef de Projet chez OCEA Smart Building. 
 La première concernait le soutien fonctionnel pour intégrer les données d'une entreprise acquise dans leur système. 
-La seconde se concentrait sur l'aspect opérationnel, ou il fallait developper un processus pour évaluer les gains de productivité entre deux outils de gestion. 
+La seconde se concentrait sur l'aspect opérationnel, 
+où il fallait developper un processus pour évaluer les gains de productivité entre deux outils de gestion. 
 Ces expériences ont mis en évidence mes compétences en optimisation de processus, en gestion du changement et en gestion de crise.
 D'ailleurs, lors de la 1ere missions, j'ai rencontré une situation assez similaire à celle que vous décrivez, où j'ai dû gérer d'importantes tensions entre la responsable d'un service et deux de ses collaborateurs. Il était clair que deux clans s'étaient formés au sein du service, marqués par un manque de communication, l'absence de définition claire des responsabilités (pas de RACI défini), des problèmes personnels affectant la responsable, ainsi qu'un manque de reconnaissance mutuelle et d'organisation. Pour surmonter ces défis, il a été nécessaire de mettre en œuvre plusieurs solutions visant à restaurer la confiance et la légitimité au sein du groupe. Cela a inclus la mise en place d'une écoute active, une réorganisation collective, l'établissement de nouveaux processus, ainsi que la planification détaillée des tâches et responsabilités.
 
@@ -105,8 +108,8 @@ Parmi les défis à relever, il est sera important d'évaluer si chaque membre d
 Peut-être qu’il faudra aussi résoudre, des problématiques passées, incluant des conflits de loyauté envers l'ancienne direction générale.
 il sera question de voir comment on peut envisager le changement, se projeter , définir un sens commun, élaborer une vision partagée et à l'alignement sur des valeurs essentielles
 
-plan d'action :
-
+Plan d'action :
+===============
 Proposition de Coaching Personnalisé avec Comité de Pilotage
 Dans le cadre de notre collaboration, je propose une approche structurée et holistique, axée sur un diagnostic précis et le développement tant individuel que collectif au sein de votre organisation.
 Mise en Place d'un Comité de Pilotage (Copil):
@@ -121,12 +124,30 @@ Optimisation Organisationnelle:
 Cette proposition vise à créer une dynamique de changement positif et durable, en assurant l'engagement et la participation active du comité de pilotage à chaque étape du projet, pour une transformation profonde et alignée sur les valeurs et objectifs de l'organisation.
 
 
-Proposition financière :
-=
- Front office : 950 €
-Back office : 750 €
+Propositions financière :
+=========================
+Front office : 950 € la journée / 475 € la demi-journée 
+Back office : 750 € la journée / 375 € la demi-journée
 
+Diagnostic :
+============
+- Réunion préparatoire en présentielle (gratuit)
+- 1 Copil de lancement: 2 H + entretiens individuels du diagnostic ( journée sur place) => 950 €
+- 4 jours de back office (analyse des documents et des entretiens + rédactions du rapport de synthèse  750 € x 4
+- 1 Copil de restitution 2H + restitution à l'équipe = demi journée sur place 475 €
 
+* Coaching Individuel :
+=======================
+Le déroulé, le planning et tarif du coaching seront défini en fonction du diagnostic et proposer lors de la restitution
+- entre 8 a 12 séance avec la même grille de tarif
+
+* Coaching d'équipe :
+=====================
+Le déroulé, le planning et tarif du coaching seront défini en fonction du diagnostic et proposer lors de la restitution
+
+- 1 diag sera déja fait 
+- 3 à 4 jour de préparation en back office 
+- 1 animation d'une journée sur site 
 
 
 
