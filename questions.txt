@@ -1,5 +1,4 @@
 
-
 Présentation + Questions + Proposition stratégie + Tarif Horaire Front et back office 
 
 Je m'appel Fabrice GUERET
@@ -53,33 +52,38 @@ Parallèlement à la 2eme missions OCEA, j’ai travaillé pour le Group Panzani
 J’ai également travaillé pour  Renault trucks, Caisse d’épargne. EDF-GDF, SNCF, Enedis, Adecco groupe
 
 Tout au long de mon parcours, il a été question d'évoluer et de relever de nouveaux défis professionnels de plus en plus importants, en mettant en avant ma capacité d'adaptation, quel que soit le challenge et la mission.  
-==
-Questions :
 
+
+=================================================================
+Questions : à classifier par sujet et chronolgie et enlever les doublons 
+
+* 		Comment se manifeste l'autorité de la directrice, jugée excessive par les 3 plaignants ? Ont-ils donné des exemples ?
 * 		Quel a été l'élément déclencheur selon vous ?
 * 		Depuis quand observez-vous ces tensions ?
 * 		Comment se manifestent ces tensions entre les parties ?
 * 		Y avait-il déjà des conflits ou tensions liés à ces 3 membres ?
-* 		Quels sont les reproches des 3 plaignants envers la directrice ?
+* 		Quels concrêtement sont les reproches des 3 plaignants envers la directrice ?
 * 		Comment la directrice a-t-elle cherché à marquer son territoire ?
 * 		Le ton de la directrice est-il perçu comme trop directif, agressif ou dégradant ?
 * 		Y a-t-il un sentiment de ne pas être écouté dans leurs propositions de la part des 3 membres ?
+*               est-ce que les rôles de chacun est bien défini
 * 		En tant que sachant historique, estimez-vous que la voie choisie par la directrice n'est pas bonne ?
-* 		Y a-t-il de la place à la discussion ? La directrice est-elle à l'écoute et ouverte aux propositions et aux remarques ?
+* 		Y a-t-il de la place à la discussion ? 
+*               La directrice est-elle à l'écoute et ouverte aux propositions et aux remarques ?
 * 		Est-elle prête à revoir sa stratégie de management ?
 * 		Existe-t-il un cadre de travail de fonctionnement établi et connu de tous ?
-* 		Avez-vous déjà eu des retours de la psychologue du travail concernant son accompagnement de la directrice ?
+*               Pourquoi avez vous fait appel à une psycholoque du travail ?
+*		combien de personne dans son équipe
 * 		Sur quoi vous basez-vous pour affirmer qu'elle "fait le job" malgré les tensions et la sollicitation d'un psychologue ?
 * 		Quel est le sens de l'accompagnement par la psychologue du travail ? Suite à quoi et à la demande de qui a-t-il été initié ?
 * 		Quel a été l'impact de cet accompagnement sur la situation ? Avez-vous des premiers retours ?
 * 		La directrice vous fait-elle aussi des retours sur la situation ? Comment voit-elle les choses et que met-elle en place pour essayer de résoudre les problèmes ?
-* 		Comment se manifeste l'autorité de la directrice, jugée excessive par les 3 plaignants ? Ont-ils donné des exemples ?
 * 		Concernant la responsable du service : Qu'a-t-on mis en place pour l'aider à monter en compétence ? Avez-vous envisagé des formations courtes et un soutien spécifique ?
-* 		L'assistante : Pourquoi en veut-elle à la directrice ? Parle-t-elle de problèmes personnels ?
-* 		L'ancien directeur : Ce nouveau poste lui a-t-il été imposé à son retour ? Y a-t-il une notion de frustration ou de jalousie concernant son ancien poste ?
-* 		Est-ce que ça se passe mieux dans l'autre direction où il est affecté ? Si oui, pourquoi ne pas l'affecter à 100 % à ce service ?
+* 		de votre fen^tre , L'assistante : Pourquoi en veut-elle à la directrice ? Parle-t-elle de problèmes personnels ?
+* 		de votre fen^tre, L'ancien directeur : Ce nouveau poste lui a-t-il été imposé à son retour ? Y a-t-il une notion de frustration ou de jalousie concernant son ancien poste ?
+* 		pour l'ancien directeur. Est-ce que ça se passe mieux dans l'autre direction où il est affecté ? Si oui, pourquoi ne pas l'affecter à 100 % à ce service ?
 * 		Quelles actions ont été prises jusqu'à présent pour aborder les tensions existantes ?
-* 		Y a-t-il déjà eu des échanges sur ces problèmes entre les parties ? Si oui, comment cela s'est-il passé et quel a été le bilan ?
+* 		Y a-t-il déjà eu des échanges sur ces problèmes entre les parties ? Si oui, comment cela s'est-il passé et quel a été le bilan ? avez vous des retours 
 * 		Comment cette dynamique entre l'élue et la directrice affecte-t-elle le fonctionnement de la direction "Enfance, Jeunesse & Sports" ? Avez-vous des exemples concrets où l'intervention de l'élue a dépassé son rôle ou impacté les décisions ?
 * 		Sur les perspectives et les solutions envisagées : Quelles sont les attentes de la direction générale quant aux résultats du coaching individuel et d'équipe proposé ?
 * 		Comment envisagez-vous de réviser et d'améliorer les processus organisationnels pour mieux répondre aux besoins de l'équipe ?
@@ -87,14 +91,14 @@ Questions :
 * 		Le DG ayant mis son poste dans la balance, quelles sont les attentes de la direction générale concernant l'évolution de la situation ?
 * 		Les protagonistes sont-ils au courant que le problème est pris au sérieux et qu'une intervention est en cours ?
 
-
-==
+=================================================================
 Expo de la problématique (client)
-==
+=================================
 
-Proposition de stratégie de coaching :
+
 
 Ma vision des enjeux de la mission :
+====================================
 
 D'après le contexte que vous m'avez décrit et suite aux nombreux échanges avec Marjorie, 
 
@@ -106,22 +110,44 @@ Il apparaît également que les cultures professionnelles divergent et que les c
 La position de la directrice, son mode de communication,
 Parmi les défis à relever, il est sera important d'évaluer si chaque membre du groupe est bien à sa place et d'aborder, 
 Peut-être qu’il faudra aussi résoudre, des problématiques passées, incluant des conflits de loyauté envers l'ancienne direction générale.
-il sera question de voir comment on peut envisager le changement, se projeter , définir un sens commun, élaborer une vision partagée et à l'alignement sur des valeurs essentielles
+il sera question de voir comment on peut envisager le changement, se projeter , 
+définir un sens commun, élaborer une vision partagée et à l'alignement sur des valeurs essentielles
 
-Plan d'action :
-===============
-Proposition de Coaching Personnalisé avec Comité de Pilotage
-Dans le cadre de notre collaboration, je propose une approche structurée et holistique, axée sur un diagnostic précis et le développement tant individuel que collectif au sein de votre organisation.
-Mise en Place d'un Comité de Pilotage (Copil):
-* Fondation du Projet: Dès le début, nous établirons un comité de pilotage composé de membres clés de l'organisation. Ce "copil" servira de plateforme centrale pour le suivi, la coordination et la validation des différentes étapes du projet.
-* Rôle du Copil: Il aura pour fonction d'assurer une communication fluide entre toutes les parties prenantes, de faciliter la prise de décision et d'ajuster le cap du projet en fonction des retours et des analyses effectuées.
-Diagnostic Approfondi:
-* Entretiens et Analyses: Conduite d'entretiens avec les parties prenantes, y compris via le comité de pilotage, pour garantir que toutes les perspectives sont prises en compte. Utilisation de divers outils de diagnostic pour comprendre en profondeur les dynamiques à l'œuvre.
-Coaching de la Directrice et d'Équipe:
-* Nous travaillerons sur les aspects personnels et collectifs, en partant du positionnement de la directrice jusqu'au renforcement de la cohésion d'équipe, avec l'appui et les retours du copil pour garantir l'alignement avec les objectifs organisationnels.
-Optimisation Organisationnelle:
-* Réajustements et Processus: Le comité de pilotage jouera un rôle crucial dans la phase d'optimisation organisationnelle, en approuvant les réajustements des périmètres, les modifications d'organigramme et la mise en place de nouveaux processus.
-Cette proposition vise à créer une dynamique de changement positif et durable, en assurant l'engagement et la participation active du comité de pilotage à chaque étape du projet, pour une transformation profonde et alignée sur les valeurs et objectifs de l'organisation.
+
+Plan d'action : 
+Proposition de Coaching Personnalisé avec Comité de Pilotage :
+Proposition de stratégie de coaching :
+==============================================================================
+
+Dans le cadre de notre collaboration, je propose une approche structurée et holistique, 
+axée sur un diagnostic précis et le développement tant individuel que collectif au sein de votre organisation.
+
+1 - Mise en Place d'un Comité de Pilotage (Copil):
+
+* Fondation du Projet: Dès le début, nous établirons un comité de pilotage composé de membres clés de l'organisation. 
+Ce "copil" servira de plateforme centrale pour le suivi, la coordination et la validation des différentes étapes du projet.
+
+* Rôle du Copil: Il aura pour fonction d'assurer une communication fluide entre toutes les parties prenantes, 
+de faciliter la prise de décision et d'ajuster le cap du projet en fonction des retours et des analyses effectuées.
+
+- Diagnostic Approfondi:
+* Entretiens et Analyses: Conduite d'entretiens avec les parties prenantes, y compris via le comité de pilotage, 
+pour garantir que toutes les perspectives sont prises en compte. 
+
+Utilisation de divers outils de diagnostic pour comprendre en profondeur les dynamiques à l'œuvre.
+
+- Coaching de la Directrice et d'Équipe:
+* Nous travaillerons sur les aspects personnels et collectifs, 
+en partant du positionnement de la directrice jusqu'au renforcement de la cohésion d'équipe, 
+avec l'appui et les retours du copil pour garantir l'alignement avec les objectifs organisationnels.
+
+- Optimisation Organisationnelle:
+* Réajustements et Processus: Le comité de pilotage jouera un rôle crucial dans la phase d'optimisation organisationnelle, 
+en approuvant les réajustements des périmètres, 
+les modifications d'organigramme et la mise en place de nouveaux processus.
+Cette proposition vise à créer une dynamique de changement positif et durable, 
+en assurant l'engagement et la participation active du comité de pilotage à chaque étape du projet, 
+pour une transformation profonde et alignée sur les valeurs et objectifs de l'organisation.
 
 
 Propositions financière :
@@ -150,22 +176,11 @@ Le déroulé, le planning et tarif du coaching seront défini en fonction du dia
 - 1 animation d'une journée sur site 
 
 
+ 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
