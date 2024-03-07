@@ -1,8 +1,6 @@
 
 CR retour d'expérience Migration Monarch KARINE 
 
-Ce -dessous le CR du point fait avec KARINE :
-
 Objectif du Projet Monarch 
 ==========================
 Migration vers la Nouvelle Version de Monarch : L'objectif est de migrer Monarch et ses composants vers la dernière version, 
