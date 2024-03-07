@@ -1,148 +1,131 @@
-Monarch : but migrer sur la nouvelle version 
 
-Manarch a plusieurs composants, la partie serveur Automator
+CR retour d'expérience Migration Monarch KARINE 
 
-Docs plus importante : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => « Informations techniques » ARCHITECTURE
+Ce -dessous le CR du point fait avec KARINE :
 
-Dans le rep architecture il y a le dernier schéma d’archi de la version 2020 de Monarch : c’est celui qu’on va mettre à jours avec Abdelahkim
+Objectif du Projet Monarch 
+==========================
+Migration vers la Nouvelle Version de Monarch : L'objectif est de migrer Monarch et ses composants vers la dernière version, 
+En mettant à jour à la fois les parties serveur (Automator) et client.
 
-Monarch est en 2 parties :
-1 - installé sur les postes de travail : client lourd - logiciel - permet aux utilisateurs de faire des traitements monarch en local sur leur poste 
-2 - serveur qui lance les traitements tout seul (monarch automator) pour automatiser ces traitement monarch, pour que ce soit le serveur qui les lances, c’est un orchestrateur .l’action n’est donc plus manuelle
+Documentation de Référence Principale
+====================================
+* Chemin Spécifique : P0011 Beta, Monarch, RSD et Technique, avec un focus particulier sur la section « Informations techniques » 
 
-VM windows 2016
+* Chemin du Schéma d'Architecture et Technique 2020 :
+P0011 Beta, Monarch, RSD et Technique, avec un focus particulier sur la section « Informations techniques » ARCHITECTURE 
+Ce répertoire contient le dernier schéma d'architecture de la version 2020, destiné à être mis à jour.
 
-Partie serveurs :
+Configuration Système Monarch
+=============================
+Monarch est structuré en deux parties principales :
+* Client Lourd : Installé sur les postes de travail pour les traitements locaux.
+* Serveur (Monarch Automator) : Automatise les traitements via un orchestrateur, rendant l'action non-manuelle.
 
-- 2 frontaux : webapp MONARCH et FONCTION
+Infrastructure Technique : VM Windows 2016
+==========================================
+Serveurs :
+* Frontaux : webapp MONARCH et FONCTION.
+* Back-end : dispatcher Node1 et Node2.
+ 
+Bases de Données (VM) :
+* BDD Monarch.
+* Quai de données pour les fichiers entrants et sortants, 
+- protocole de liaison Samba
 
-- 2 BACK : dispatcher Node1 et Node2
+Stratégie et Préconisations
+=========================
+L’idée est de tout reconstruire, commander de nouvelle machine en fonction des préconisations de l’éditeur,
+Tout en tenant compte des capacités fournies par CAGIP. 
+Il faut construire les VMs en fonction des préconisations sur les dernières versions possible pour être le plus à jour possible pour les failles de sécurités
+(La Doc d’installe de la nouvelle version est fournie l’éditeur et il y aura dedans toutes les préconisations au regard de tous ce qu’il doit y avoir sur les machines)
 
-
-Partie Bases de données ( VM):
-
-- BDD Monarch
-
-- Un quai de donnée : repertoire où on stock les fichiers qui sont utilisé en entré et en sortie par monarch
-
-Protocole de liaison : samba
-
-1 - L’évolution de la version de monarch va consister à migrer 4 serveurs (frontaux et backs) et le serveur de la base de données
+1 - L’évolution de la version de Monarch va consister à migrer 4 serveurs (frontaux et backs) et le serveur de la base de données
 2 - ensuite on pourra faire monter la version sur les clients lourd des postes 
 
 Process de la compatibilité de version va dans le sens suivant : 
+================================================================
 1 - On garde les clients en ancienne version 
-2 - On fait d’abord montée la partie serveur et après 
+2 - On fait d’abord montée la partie serveur
 3 - On fait montée la partie client 
 
-C’est dans cette ordre car si on avait des clients en version supérieurs ils pourraient avoir des fonctionnalité qui n’existe pas sur la partie serveur et ça pourrait être problématique 
+C’est dans cette ordre car si on avait des clients en version supérieurs ils pourraient avoir des fonctionnalités qui n’existe pas sur la partie serveur et ça pourrait être problématique 
 
-l’idée est de tout reconstruire, commander de nouvelles machine en fonction des préconisation de l’éditeur 
-Et construire de VMs en fonction des préconisations sur les dernière versions possible pour être le plus à jour possible pour les failles de sécurités
-Doc d’installe de la nouvelle version fournie pas l’éditeur  et il y aura dedans toute s les préconisations au regard de tous ce qu’il doit y avoir sur les machines 
-Il faudra donc trouver un compris entre les préconisation de l’éditeur et ce qui est disponible par CAGIP
+Les constructions de serveur sont faites par le BO => Franck Kaiser (on fait la demande et lui se charge de le faire construire)
 
-Les construction de serveur sont faite par le BO => Franck Kaiser (on fait la demande et lui se charge de le faire construire)
-
-la partie BDD était elle aussi sur de VM 2016 alors que l’éditeur préconisait du 2019 mais cette version n’était pas disponible à l’époque :
- il faudra prendre le ms sql recommandé par l’éditeur mais en fonction de ce qui est disponible côté CAGIP
+La partie BDD était elle aussi sur de VM 2016 alors que l’éditeur préconisait du 2019 mais cette version n’était pas disponible à l’époque :
+Il faudra prendre le ms sql recommandé par l’éditeur mais en fonction de ce qui est disponible côté CAGIP
 
 Ce premier point d’action concernait le schéma d’architecture
 
-Il sera important de bien  s’approprié la partie installation de la solution faite en 2020 : en particulier la doc installationMonarch2020 V16.docx et Finalisation_installationMonarch2020 V1.0.docs
+Il sera important de bien s’approprié la partie installation de la solution faite en 2020 : en particulier la doc installationMonarch2020 V16.docx et Finalisation_installationMonarch2020 V1.0.docs
 
-Il faut maitriser ces docs car il y a vraiment tout l’enchainement d’installation, car ce sont les chose qu’on va refaire avec la nouvelle version 
+Il faut maitriser ces docs car il y a vraiment tout l’enchainement d’installation, car ce sont les choses qu’on va refaire avec la nouvelle version 
 
-
-Ces 2 docs on été construite à partir de la doc de l’éditeur qu’il faudras aussi s’approprier
-
-
-P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => « Informations techniques »  
+Ces 2 docs ont été construite à partir de la doc de l’éditeur qu’il faudra aussi s’approprier
 
 
-========================================================================================
+Documentation Spécifique
+======================
+Il sera très Important de s’appropriation les document d’installe déjà réalisé et situé sous  :
 
-Docs liste des actions  : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => Documentation cycle projet => liste des récits de mise en production.xlsx
+* Guides d'Installation : installationMonarch2020 V16.docx et Finalisation_installationMonarch2020 V1.0.docx sont cruciaux pour comprendre l'installation réalisée en 2020, servant de base pour la mise à jour.
+* Liste des Actions et Documentation du Cycle de Projet : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => Documentation cycle projet => liste des récits de mise en production.xlsx. Ce document est essentiel pour planifier les étapes de mise en production.
 
+Résumé des Actions et Étapes du Projet :
+=================================
+Le projet débute par la conception des schémas d'architecture, suivie par l'engagement des parties prenantes (pôle utilisateur entreprise numérique, éditeur) et la construction des serveurs par Franck Kaiser. 
+Les étapes incluent l'installation manuelle sur DEVTU, la répétition des tests, la création d'une documentation d'installation détaillée, et enfin, l'industrialisation des installations pour les environnements suivants.
 
-1ère étapes :
-- Non noté dans la liste mais la première étape est bien de rencontrer les architecte pour faire les schéma d’archi, sans schéma d’archi rien n’est possible 
-- Il faudra prendre contact avec le pole utilisateur entreprise numérique pour qu’ils soient bien en phase avec le projet, ce sont eux qui vont faire la com et la conduite du changement en caisse régional 
+Docs liste des actions : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => Documentation cycle projet => liste des récits de mise en production.xlsx
+
+1ère étape :
+- rencontrer les architectes pour faire les schémas d’archi, sans schéma d’archi rien n’est possible 
+- Il faudra prendre contact avec le pôle utilisateur entreprise numérique pour qu’ils soient bien en phase avec le projet, ce sont eux qui vont faire la com et la conduite du changement en caisse régional 
 - Rencontre l’éditeur : pour expliquer où sont les sources et les nouvelles doc d’installe pour se familiariser avec la nouvelle version 
 
-2 eme étape :
-
+2 -ème étape :
 - Demander au BO de construire les serveurs 
-- Doc importante  : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => « Informations techniques »Accès Monarch2020 V1.3.xlsx => Il faudra faudra faire le même document pour la nouvelle version 
-De ce projet de migration , il faut commencer par devtu
-Ce sera sur cette machine que l’on fera les installation sur les nouvelles VM. Un fois le test éprouver il faudra recommencer le test pour cela il faudra demander au BO de remettre en sortie d’usine le DEVTU pour recommencer l’installation,
+- Doc importante : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => « Informations techniques » Accès Monarch2020 V1.3.xlsx => Il faudra faire le même document pour la nouvelle version 
+
+De ce projet de migration, il faut commencer par DEVTU
+==============================================
+Ce sera sur cette machine que l’on fera les installations sur les nouvelles VM. Un fois le test éprouver il faudra recommencer le test pour cela il faudra demander au BO de remettre en sortie d’usine le DEVTU pour recommencer l’installation,
 Pour ré éprouver la doc d’installation 
-En gros ; à partir du moment où le BO nous auras livrer les 4 serveurs + la base de donnée, on pourras commencer à installer manuellement  sur DEVTU et manipuler et recommencer et créer la doc d’installation 
-Copie écran par copie écran décrivant ce qui est fait pour installer 
 
-Une fois que les teste  sont concluant après plusieurs installation sur DEVTU on par sur VMOA
+Dès que le BO nous aura livrer les 4 serveurs + la base de données, on pourra :
 
-Par contre sur VMOA on ne fais pas l’installation à la main, en fait tous les environnement suivant ne se font pa s à la main , on industrialise
-Pour faire la procédure d’industrialisation il faut prendre contacte avec Michèle SALAMé ? On lui fourni le document d’installation qu’on aura créé , ensuite il prend le document word d’installation qu’on lui fourni et il l’industrialise 
-NB : Risque => vu que l’installation se fait avec window, ce n’est pas adapté à des scripts automatique d’install, il y a des gros de rencontrer des problèmes problème pour adapté les scripts d’install
+- Commencer à installer manuellement sur DEVTU 
+- Manipuler
+- Recommencer plusieurs fois l'installation sur DEVTU
+- Créer la doc d’installation (Copie écran par copie écran décrivant ce qui est fait pour installer)
 
-L’équipe d’intall est T A DATA
+Une fois que les tests sont concluant après plusieurs installations sur DEVTU on peut faire l'installation sur l'environnement suivant (VMOA)
+Par contre sur VMOA, on ne fait pas l’installation à la main, en fait, sur tous les environnements suivants, on industrialise
 
-PIM : procédure d’installation manuelle 
-
-Rappel de l’ordre de la PIM par environnement :
-
-1 - DEVTU 2 ou 3 fois (on installe on fait délivrer les machine, qui s on recommence 2 ou 3 fois ou plus…)
+Ordre de la PIM (procédure d’installation manuelle) par environnement :
+===========================================================
+1 - DEVTU 2 ou 3 fois (on installe on fait délivrer les machines, qui s on recommence 2 ou 3 fois ou plus…)
 2 - VMAO 
 3 - NEHOM
 4 - Rattachement Adh CACE
 
-Ce n’est qu’une fois que l’insatallion sera approuvé sur tous ces environnement que l’on pourra passer en production sur les serveurs de productions
-Pour la PROD vu que c’est une nouvelle infra complètement indépendante , normalement si on fait tout reconstruire, on est indépendant de la prod actuelle donc meme si on livre en prod il n’y a pas de risque
-Le première objectif sera d’avoir un nouvelle prod qui marche , que tout soit construit qu’elle soit joignable et utilisable 
+Procédure d'industrialisation :
+========================
+Pour faire la procédure d’industrialisation il faut prendre contact avec Michèle Salamé ? 
+On lui fournit le document d’installation qu’on aura créé, ensuite il prend le document Word d’installation qu’on lui a fourni et il l’industrialise 
+NB : Risque => l’installation se fait avec Windows et ce n’est pas adapté à des scripts automatiques d’installation, il y a des gros risques de rencontrer des problèmes pour adapter les scripts d’Install
 
+Contact : L’équipe d’Install est T.A DATA
+
+Ce n’est qu’une fois que l’installation sera approuvée sur tous ces environnements que l’on pourra passer en production sur les serveurs de productions
+
+Pour la PROD vu que c’est une nouvelle infra complètement indépendante, normalement si on fait tout reconstruire, on est indépendant de la prod actuelle, donc même si on livre en prod il n’y a pas de risque
+Le premier objectif sera d’avoir un nouvelle Prod qui marche, que tout soit construit qu’elle soit joignable et utilisable 
 Il sera alors temps de s’occuper du process de migration :
 
-
 Ps :
-- Il faudra mettre à jour le DAP et le DEX : action listé dans le doc => liste des récits de mise en production.xlsx 
-- Il faudra aussi faire l’ARM (analyse risque métier) sous l’outil  IRMA : ARM SSI (sécurité et système d’information et ARM Juridique et conformité (on peut déjà le faire dès qu’on aura rencontré l’éditeur. Elle est déjà faite sur IRMA il faudra donc juste voir ce qui change par rapport à l’ancienne version, les différence. Pour ça il faut aussi rencontrer le PU EN , les security champion (voir avec Stéphane) 
-- Mettre à jour MAPS : pour mettre à jour les numéros de version : actuellement en statut « en cours »
+- Il faudra mettre à jour le DAP et le DEX : action listée dans le doc => "liste des récits de mise en production.xlsx" 
+- Il faudra aussi faire l’ARM (analyse risque métier) sous l’outil IRMA : ARM SSI (sécurité et système d’information et ARM Juridique et conformité (on peut déjà le faire dès qu’on aura rencontré l’éditeur. Elle est déjà faite sur IRMA il faudra donc juste voir ce qui change par rapport à l’ancienne version, les différences. Pour ça il faut aussi rencontrer le PU EN, les security champion (voir avec Stéphane) 
+- Mettre à jour MAPS : pour mettre à jour les numéros de version : actuellement en statut « en cours »
 - Il faudra modifier le GRAFANA pour les faire pointer vers les nouveaux serveurs
-
-
-==================================================================================
-
-Objectif du Projet
-Migration vers la Nouvelle Version de Monarch : L'objectif est de migrer Monarch et ses composants vers la dernière version, en mettant à jour à la fois les parties serveur (Automator) et client.
-Documentation de Référence Principale
-Documents Clés :
-* Documentation Produit : P0011 Beta, Monarch, RSD et Technique, avec un focus particulier sur la section « Informations techniques » ARCHITECTURE.
-Chemin Spécifique :
-* Documentation Technique et Schéma d'Architecture : Trouvable dans P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => « Informations techniques » ARCHITECTURE. Ce répertoire contient le dernier schéma d'architecture de la version 2020, destiné à être mis à jour.
-Configuration Système Monarch
-Monarch est structuré en deux parties principales :
-* 		Client Lourd : Installé sur les postes de travail pour les traitements locaux.
-* 		Serveur (Monarch Automator) : Automatise les traitements via un orchestrateur, rendant l'action non-manuelle.
-Infrastructure Technique
-Serveurs :
-* Frontaux : webapp MONARCH et FONCTION.
-* Back-end : dispatcher Node1 et Node2.
-Bases de Données (VM) :
-* BDD Monarch.
-* Quai de données pour les fichiers entrants et sortants, avec protocole de liaison Samba.
-Plan de Migration
-Étapes Clés :
-* 		Mise à jour des serveurs (frontaux, back-end) et du serveur de base de données.
-* 		Mise à niveau des clients lourds.
-Processus de Compatibilité des Versions
-L'ordre de mise à jour prévoit d'abord la partie serveur, puis la partie client, pour éviter des problèmes de compatibilité fonctionnelle.
-Stratégie et Préconisations
-Le projet envisage la construction de nouvelles machines et VMs selon les préconisations de l'éditeur, tout en tenant compte des capacités fournies par CAGIP. Les préconisations d'installation de la nouvelle version seront soigneusement suivies.
-Documentation Spécifique
-Importance de l'Appropriation Documentaire :
-* Guides d'Installation : installationMonarch2020 V16.docx et Finalisation_installationMonarch2020 V1.0.docx sont cruciaux pour comprendre l'installation réalisée en 2020, servant de base pour la mise à jour.
-Chemin Documentaire à Ne Pas Omettre :
-* Liste des Actions et Documentation du Cycle de Projet : P0011 Beta, Monarch, RSD et Technique, documentation produit => MONARCH => Documentation cycle projet => liste des récits de mise en production.xlsx. Ce document est essentiel pour planifier les étapes de mise en production.
-Résumé des Actions et Étapes du Projet
-Le projet débute par la conception des schémas d'architecture, suivie par l'engagement des parties prenantes (pôle utilisateur entreprise numérique, éditeur) et la construction des serveurs par Franck Kaiser. Les étapes incluent l'installation manuelle sur DEVTU, la répétition des tests, la création d'une documentation d'installation détaillée, et enfin, l'industrialisation des installations pour les environnements suivants.
