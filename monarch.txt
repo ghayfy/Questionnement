@@ -127,3 +127,38 @@ Ps :
 - Il faudra aussi faire l’ARM (analyse risque métier) sous l’outil IRMA : ARM SSI (sécurité et système d’information et ARM Juridique et conformité (on peut déjà le faire dès qu’on aura rencontré l’éditeur. Elle est déjà faite sur IRMA il faudra donc juste voir ce qui change par rapport à l’ancienne version, les différences. Pour ça il faut aussi rencontrer le PU EN, les security champion (voir avec Stéphane) 
 - Mettre à jour MAPS : pour mettre à jour les numéros de version : actuellement en statut « en cours »
 - Il faudra modifier le GRAFANA pour les faire pointer vers les nouveaux serveurs
+
+
+
+
+
+
+triple saut : 
+http://mapage.noos.fr/nicolas.delpech/exemples/ts-moniteurregional-06.pdf
+
+Muscu mardi :
+- corde à sauté : 10 minutes
+- hip trust => charge adapté => 4 x 10 
+- Exercice starzynski => charge modéré => 4 x 8 sur chaque jambe
+- quart de squat => charge modéré => 4 x 10 explossif
+- step up sur box => charge modéré => 4 x 8 sur chaque jambe
+- side step up charge modéré => 4 x 8 sur chaque jambe
+- box jump avec altère léger 
+- fente sauté avec altère dans chaque main => 4 x 8 sur chaque jambe
+
+
+escalier + plot Mercredi 
+
+Muscu jeudi :
+
+
+
+course vendredi 
+
+Côte longue samedi
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
