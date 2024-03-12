@@ -25,7 +25,7 @@ Enfin, rien ne vous oblige à commencer votre toute première facture par la val
 vous ne voulez peut-être pas que votre client sache que c’est votre premier contrat. Dans ce cas, il est tout à fait possible de commencer avec le numéro 20, 153 ou 300 !
 https://www.obat.fr/blog/numerotation-des-factures/
 
-Pour transformer cette proposition en un format de devis structuré et compréhensible sous forme de tableau, voici un exemple de présentation :
+ devis structuré et compréhensible sous forme de tableau :
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Service Offert                            | Description                                                        | Durée                           | Tarif Unité HT | Quantité | Total HT    |
 |-------------------------------------------|--------------------------------------------------------------------|---------------------------------|----------------|----------|-------------|
@@ -44,39 +44,7 @@ Pour transformer cette proposition en un format de devis structuré et compréhe
 | • Exploitation et Suivi                   | Plan d’action et suivi.                                            | 1 jour en back office           | 750 €          | 1        | 750 €       |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-à faire avec Chat GPT :
-pour ce cas précis, en partant de ton analyse et en plus de ces éléments ci-dessous : 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-| Service Offert                            | Description                                                        | Durée                           | 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-| **Coaching d’Équipe / Séminaire**         |                                                                    |                                 |  
-| • Préparation                             | Préparation en back office.                                        | 3 jours en back office          |
-| • Animation                               | Animation sur site.                                                | 1 jour sur site                 |
-| • Exploitation et Suivi                   | Plan d’action et suivi.                                            | 1 jour en back office           |
-----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Rédige moi un exemple de coaching d'équipe à mettre en place comprenant : 
-- lescénario, le  déroulé et le contenu, etc... détaillé et professionnel
-- toutes les étapes détaillé et professionnel
-- le temps pour chaque étape détaillé et professionnel
-- le temps total
-- les outils necessaire détaillé et professionnel pour entraîner l’équipe dans son ensemble par le biais d’ateliers et de séances de coaching d’équipe
-
-Donne le maximum de suggestions, d'outils, d'idées, de variantes, etc
-
-
-vérifie les éléments de calcul pour qu'ils soient cohérent et propose moi quelque chose de structuré et professionnel
-Eléments financiers : 
-prix de journée en front office : 950 € HT / jour
-prix de journée en back office : 750 € HT / jour
-
-Selon un premier chiffrage : 
-
-pour un diagnostic organisationnel : 
-1 jour sur site avec copil de cadrage, entretiens individuels et recueils des éléments
-5 jours en back office pour analyse des documents, des entretiens et la rédaction du rapport de synthèse
-½ journée sur site avec copil et restitution à l’équipe
-soit 4425 € HT
 
 La mise en oeuvre des axes d’amélioration sera fonction des orientations issues de ce diagnostic
 
@@ -88,3 +56,36 @@ Pour un coaching d’équipe / séminaire sur 1 journée - dans le cas où le di
 1 jour d’animation sur site et 1 jour d’exploitation du séminaire pour plan d’action et suivi inclus : 4425 € HT
 
 
+
+
+à faire avec Chat GPT :
+pour ce cas précis, en partant de ton analyse et en plus de ces éléments ci-dessous : 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+| Service Offert                            | Description                                                        | Durée                           | 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+| **Coaching d’Équipe / Séminaire**         |                                                                    |                                 |  
+| • Préparation                             | Préparation en back office.                                        | 3 jours en back office          |
+| • Animation                               | Animation sur site.                                                | 1 jour sur site                 |
+| • Exploitation et Suivi                   | Plan d’action et suivi.                                            | 1 jour en back office           |
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+===========================================================================================================================================================
+
+Rédige moi un exemple de coaching d'équipe à mettre en place comprenant : 
+- lescénario, le  déroulé et le contenu, etc... détaillé et professionnel
+- toutes les étapes détaillé et professionnel
+- le temps pour chaque étape détaillé et professionnel
+- le temps total
+- les outils necessaire détaillé et professionnel pour entraîner l’équipe dans son ensemble par le biais d’ateliers et de séances de coaching d’équipe
+
+Donne le maximum de suggestions, d'outils, d'idées, de variantes, etc
+il faut inclure les questions clés du coaching d’équipe : 
+- Améliorer la communication
+- Établir la confiance
+- Stimuler les échanges & le travail d’équipe
+- Résoudre les conflits
+- Révéler les compétences cachées
+
+https://www.acteo.fr/fr/teambuilding/cles-du-coaching-d-equipe
+===========================================================================================================================================================
