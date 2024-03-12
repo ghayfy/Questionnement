@@ -1,3 +1,24 @@
+
+
+Pour transformer cette proposition en un format de devis structuré et compréhensible sous forme de tableau, voici un exemple de présentation :
+
+| Service Offert                            | Description                                                        | Durée                           | Tarif Unité HT | Quantité | Total HT    |
+|-------------------------------------------|--------------------------------------------------------------------|---------------------------------|----------------|----------|-------------|
+| **Diagnostic Organisationnel**            |                                                                    |                                 |                |          | **4425 €**  |
+| • Cadrage et Recueil des Informations     | Copil de cadrage, entretiens individuels, recueil des éléments.    | 1 jour sur site                 | 950 €          | 1        | 950 €       |
+| • Analyse et Rédaction                    | Analyse des documents et entretiens, rédaction du rapport.         | 5 jours en back office          | 750 €          | 5        | 3750 €      |
+| • Restitution                             | Copil et restitution à l’équipe.                                    | ½ journée sur site              | 950 €          | 0.5      | 475 €       |
+| **Coaching Individuel Complet**           | 10 séances, entretiens tripartites, plan d’action et suivi inclus. | 10 séances + entretiens         | 3600 €         | 1        | **3600 €**  |
+| **Coaching Individuel à l'Unité**         | 1h préparation, 1h séance, 1h exploitation.                        | 3 heures par séance             | 300 €          | 1        | **300 €**   |
+| **Coaching d’Équipe / Séminaire**         |                                                                    |                                 |                |          | **3950 €**  |
+| • Préparation                             | Préparation en back office.                                         | 3 jours en back office          | 750 €          | 3        | 2250 €      |
+| • Animation                               | Animation sur site.                                                 | 1 jour sur site                 | 950 €          | 1        | 950 €       |
+| • Exploitation et Suivi                   | Plan d’action et suivi.                                             | 1 jour en back office           | 750 €          | 1        | 750 €       |
+|                                           | **Total Général**                                                   |                                 |                |          | **12275 €** |
+
+Ce tableau présente une vue d'ensemble claire et détaillée des services proposés, les durées associées, les tarifs unitaires hors taxes, la quantité pour chaque service, et les totaux correspondants. Cette structure aide à la compréhension rapide du devis par le client, tout en facilitant le suivi des coûts pour chaque élément de service proposé.
+
+
 vérifie les éléments de calcul pour qu'ils soient cohérent et propose moi quelque chose de structuré et professionnel
 Eléments financiers : 
 prix de journée en front office : 950 € HT / jour
