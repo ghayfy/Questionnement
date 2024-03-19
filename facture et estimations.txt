@@ -1,0 +1,55 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+
+- mettre facture n°, date etc... au dessus de Acheteur
+- enlever les mots "vendeur" et "acheteur"
+- déplacer les mots "total HT" et total TTc dans la colonne "Qté"
+- réduire et déplacer à gauche l'IBAN ou l'écrire autrement et beaucoup plus petit 
+- mettre des couleurs
+- Ajouter le symbole € dans les colonnes PU. HT dans la colonne Total HT
+- voir si on peut incrémenter les numéros de facture
+- ajouter une case signature ou pas...
+- ajouter une case TVA avec la possibilité d'entré le taux voulu manuellement
+- supprime le cadre autour de l'ensemble de la facture
+
+
+modèle :
+
+https://tool-advisor.fr/logiciel-facturation/comparatif/modele-de-facture/
+https://independant.io/modele/facture/
+https://www.kafeo.com/factures/modele-facture.htm
+https://intia.fr/fr/ressources/modele-de-facture/
+https://www.facture-excel.com/facture-proforma-word/
+https://www.rep-secretariat.fr/downloads/modele-de-facture-auto-entrepreneur
+https://www.facture-excel.com/facture-pdf/
+https://www.page-word.com/facture-vente/
+https://karlia.co/modeles-de-facture-gratuits/
+
+Projet Portail + Terrasse entrée :
+==================================
+
+Pelle : 300 euros
+Béton benne : 1556.02 euros
+Matériels : 422 euros
+Maçon : 1200 euros
+==================================
+Total : 3478,02 euros
+Montage Portail : 1500 euros
+==================================
+Total dépense minimum :
+4978,02 euros
+
+
+à envisager :
+==================================
+- Goutière AV + AR
+- Mur côté Desplan
+
+Financement :
+==================================
+Epargne dispo : 3000 euros
+Ajout épargne  600 eros par mois => avril + Mai + Juin = 1800 euros
+Autres : ???
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
