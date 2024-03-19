@@ -1,6 +1,4 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-
-
+FACTURE                                                                                                                                      
 - mettre facture n°, date etc... au dessus de Acheteur
 - enlever les mots "vendeur" et "acheteur"
 - déplacer les mots "total HT" et total TTc dans la colonne "Qté"
@@ -11,7 +9,6 @@
 - ajouter une case signature ou pas...
 - ajouter une case TVA avec la possibilité d'entré le taux voulu manuellement
 - supprime le cadre autour de l'ensemble de la facture
-
 
 modèle :
 
@@ -24,6 +21,10 @@ https://www.rep-secretariat.fr/downloads/modele-de-facture-auto-entrepreneur
 https://www.facture-excel.com/facture-pdf/
 https://www.page-word.com/facture-vente/
 https://karlia.co/modeles-de-facture-gratuits/
+
+===================================================================================================
+
+ESTIMATION
 
 Projet Portail + Terrasse entrée :
 ==================================
@@ -38,7 +39,6 @@ Montage Portail : 1500 euros
 ==================================
 Total dépense minimum :
 4978,02 euros
-
 
 à envisager :
 ==================================
