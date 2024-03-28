@@ -20,13 +20,5 @@ https://github.com/xai-org/grok-1
 - https://www.docteur-fitness.com/exercices-quadriceps
 - https://www.google.com/imgres?imgurl=https%3A%2F%2Fentrainement-sportif.fr%2Felastique-fitness-exercices.gif&tbnid=F7JTf_yXv-MGuM&vet=12ahUKEwjukuG_hZKFAxUYT6QEHT2kCoEQMygBegQIARBO..i&imgrefurl=https%3A%2F%2Fentrainement-sportif.fr%2Fbande-elastique-fitness.htm&docid=KxylMzY1S2vycM&w=730&h=926&q=programme%20exercice%20avec%20elastique&hl=fr&ved=2ahUKEwjukuG_hZKFAxUYT6QEHT2kCoEQMygBegQIARBO
 
-est ce qu el'export de base SQL que vous souhaitez concerne bien l'export de base du serveur de licence ? 
-est que vous souhaitez de certaines tables spécifique ou ou l'export de base complète.
-car si c'est l'export de base il nous faudra faire un demande de dump 
 
-Hi Steve
-To ensure that we are precisely meeting your needs, could you confirm that this export concerns the database of the license server?
 
-Also, do you want to export specific tables, or do you need the whole database?
-This detail is important for us because if a complete export is required, we will need to proceed with a request for a database dump.
-Best regards,
